@@ -1,0 +1,5 @@
+import gdown
+url = "https://docs.google.com/spreadsheets/d/1P9wlk75Bxk4HWFEi0XEtTkHYHO7XA7X0/edit?usp=share_link&ouid=105981813865974599906&rtpof=true&sd=true"
+output = "Ficheiro.xlsx"
+
+gdown.download(url,output)
